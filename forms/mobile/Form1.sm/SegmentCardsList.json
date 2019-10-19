@@ -1,0 +1,211 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        },
+        {
+            "LblAccountOverview": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Balance"
+            },
+            "LblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$123455"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegmentCardsList",
+    "info": null,
+    "invokedProperty": "pageOnDotImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b0286ca6d0fa4932bf3412c3a475fdcf",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "FlexOverview",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "h4dd08697c514cb3b5fb66d917f028bd",
+    "rowcounter": 9,
+    "rowfocusskin": "s16da1b369fc49ba9e9857f8dc9c8b81",
+    "rowskin": "s36388be7c0345b1b0f8272f65326eb0",
+    "rowtemplate": "FlexCardTemplate",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s61c18e276244b86bc2ef5b8489384f8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1125,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexCardTemplate": "FlexCardTemplate",
+        "FlexContainerOverview": "FlexContainerOverview",
+        "LblAccountOverview": "LblAccountOverview",
+        "LblAmount": "LblAmount"
+    },
+    "zindex": 1
+}
