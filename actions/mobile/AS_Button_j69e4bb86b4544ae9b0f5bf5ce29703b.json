@@ -1,0 +1,35 @@
+{
+    "AS_Button_j69e4bb86b4544ae9b0f5bf5ce29703b": {
+        "id": "AS_Button_j69e4bb86b4544ae9b0f5bf5ce29703b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "if126de1ef124d3d9f20b627aa324ab8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR__ea501319ad524e3694592f842931ed9b",
+            "selectedOption": "show",
+            "parentId": null,
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "callbackType": null,
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "ADD_SNIPPET__a0f434d53a6842749b1dc7863e6bf5c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.doLogin();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

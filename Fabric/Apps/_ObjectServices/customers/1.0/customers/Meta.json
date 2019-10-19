@@ -1,0 +1,42 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "customers",
+      "qualifiedName" : "anonymousdb.customers",
+      "metadataformatterobject" : "{\"displayName\":\"customers\",\"qualifiedName\":\"anonymousdb.customers\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"customers\",\"schemaName\":\"anonymousdb\",\"tableName\":\"customers\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "customers",
+      "qualifiedName" : "anonymousdb.customers",
+      "metadataformatterobject" : "{\"displayName\":\"customers\",\"qualifiedName\":\"anonymousdb.customers\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"customers\",\"schemaName\":\"anonymousdb\",\"tableName\":\"customers\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "password",
+    "targetField" : "password",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fullname",
+    "targetField" : "fullname",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "customer_id",
+    "targetField" : "customer_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "username",
+    "targetField" : "username",
+    "type" : "request_response"
+  } ]
+}

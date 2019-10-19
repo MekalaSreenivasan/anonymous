@@ -1,0 +1,46 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "accounts",
+      "qualifiedName" : "anonymousdb.accounts",
+      "metadataformatterobject" : "{\"displayName\":\"accounts\",\"qualifiedName\":\"anonymousdb.accounts\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"accounts\",\"schemaName\":\"anonymousdb\",\"tableName\":\"accounts\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "accounts",
+      "qualifiedName" : "anonymousdb.accounts",
+      "metadataformatterobject" : "{\"displayName\":\"accounts\",\"qualifiedName\":\"anonymousdb.accounts\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"accounts\",\"schemaName\":\"anonymousdb\",\"tableName\":\"accounts\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "account_type",
+    "targetField" : "account_type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "account_id",
+    "targetField" : "account_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "balance",
+    "targetField" : "balance",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "customer_id",
+    "targetField" : "customer_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "reward_points",
+    "targetField" : "reward_points",
+    "type" : "request_response"
+  } ]
+}

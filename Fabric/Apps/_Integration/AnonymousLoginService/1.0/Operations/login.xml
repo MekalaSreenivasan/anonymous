@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="login" passwordencrypted="false" security="public" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value="function fun(){&#xA;&#xA;  var records = result.findDataset('records');&#xA;  var userName = &quot;&quot;;&#xA;   var userAttRecord = new com.konylabs.middleware.dataobject.Record();&#xA;   var userAttParam = new com.konylabs.middleware.dataobject.Param();&#xA;  &#xA;  userAttRecord.setId('user_attributes');&#xA; &#x9;&#xA;  var secAttRecord = new com.konylabs.middleware.dataobject.Record();&#xA;   var secAttParam = new com.konylabs.middleware.dataobject.Param();&#xA;  &#xA;  secAttRecord.setId('security_attributes');&#xA;  if(records!= null || records !=undefined ){&#xA;    userName= records.getRecord(0).getParam('fullname').getValue();&#xA;     logger.debug('Fullname is '+ userName) ;&#xA;    &#xA;    userAttParam.setName('user_id');&#xA;    userAttParam.setValue(userName);&#xA;    userAttRecord.setParam(userAttParam);&#xA;    &#xA;    result.setRecord(userAttRecord);&#xA;    &#xA;    secAttParam.setName('session_token');&#xA;    secAttParam.setValue('dummyToken eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIiOiIifQ._shhqmd4Ev5HdRAKlA4eS7YkpPT_fU0pyTMeTn1d82c');&#xA;    secAttRecord.setParam(secAttParam);&#xA;    result.setRecord(secAttRecord);&#xA;    }else{&#xA;      var httpStatusParam = new com.konylabs.middleware.dataobject.Param('httpStatusCode',401,'int');&#xA;      var errorMSG1 = new com.konylabs.middleware.dataobject.Param('errmsg','Invalid Credentials','string');&#xA;      &#xA;      result.setParam(httpStatusParam);&#xA;      result.setParam(errorMSG1);&#xA;    }&#xA;}&#xA;fun();"/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="http://kony-e2e-prod.konycloud.com/services/data/v1/customers/objects/customers?&amp;$filter=customer_id+eq+$customerid+and+password+eq+$password&amp;%24select=fullname"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false"/>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerid" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100002" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="password" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="baba" value="">
+            <accessType></accessType>
+        </param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset id="records" order="" paramOrder="1" parentOrder="0" src="//records">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fullname" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="/fullname" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

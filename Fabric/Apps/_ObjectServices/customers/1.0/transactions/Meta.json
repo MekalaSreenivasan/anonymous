@@ -1,0 +1,78 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "transactions",
+      "qualifiedName" : "anonymousdb.transactions",
+      "metadataformatterobject" : "{\"displayName\":\"transactions\",\"qualifiedName\":\"anonymousdb.transactions\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"transactions\",\"schemaName\":\"anonymousdb\",\"tableName\":\"transactions\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "transactions",
+      "qualifiedName" : "anonymousdb.transactions",
+      "metadataformatterobject" : "{\"displayName\":\"transactions\",\"qualifiedName\":\"anonymousdb.transactions\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"transactions\",\"schemaName\":\"anonymousdb\",\"tableName\":\"transactions\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "transaction_id",
+    "targetField" : "transaction_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "amount",
+    "targetField" : "amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payee_id",
+    "targetField" : "payee_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "tr_date",
+    "targetField" : "tr_date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transaction_type",
+    "targetField" : "transaction_type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "card_id",
+    "targetField" : "card_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transaction_mode",
+    "targetField" : "transaction_mode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "account_id",
+    "targetField" : "account_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "closing_balance",
+    "targetField" : "closing_balance",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "customer_id",
+    "targetField" : "customer_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transaction_category",
+    "targetField" : "transaction_category",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "status",
+    "targetField" : "status",
+    "type" : "request_response"
+  } ]
+}
