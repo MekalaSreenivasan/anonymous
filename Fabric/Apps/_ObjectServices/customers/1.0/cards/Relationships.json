@@ -1,0 +1,13 @@
+[ {
+  "sourceObject" : "cards",
+  "targetObject" : "transactions",
+  "relationshipKeys" : [ {
+    "sourceField" : "card_id",
+    "targetField" : "card_id",
+    "etag" : "118f3818-2d9a-40d7-ad4d-5b9905c42f1c"
+  } ],
+  "name" : "cards_transactions",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

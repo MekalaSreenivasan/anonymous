@@ -1,0 +1,16 @@
+{
+  "subType" : "customapp",
+  "description" : "Anonymous",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "AnonymousLoginService",
+    "version" : "1.0",
+    "etag" : "f98ac49a-a6aa-4053-8d62-706bc1d0e73f"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "customers",
+    "version" : "1.0",
+    "etag" : "91248c47-cc17-48bb-acd2-6375ebe1e286"
+  } ],
+  "identity" : [ "AnonymousLogin" ]
+}

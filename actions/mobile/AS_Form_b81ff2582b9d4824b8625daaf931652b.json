@@ -1,0 +1,24 @@
+{
+    "AS_Form_b81ff2582b9d4824b8625daaf931652b": {
+        "id": "AS_Form_b81ff2582b9d4824b8625daaf931652b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "if126de1ef124d3d9f20b627aa324ab8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f48cb29cef87480b8ce92b0f8207ba60",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxLoginCard.shadowDepth = 2;\nthis.view.flxLoginCard.shadowType = constants.VIEW_BOUNDS_SHADOW;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+[ {
+  "sourceObject" : "customers",
+  "targetObject" : "accounts",
+  "relationshipKeys" : [ {
+    "sourceField" : "customer_id",
+    "targetField" : "customer_id",
+    "etag" : "c560b53d-3c04-4202-b80e-71fc59974620"
+  } ],
+  "name" : "customers_accounts",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "customers",
+  "targetObject" : "transactions",
+  "relationshipKeys" : [ {
+    "sourceField" : "customer_id",
+    "targetField" : "customer_id",
+    "etag" : "770dfa38-be3d-4b16-ab84-dc295a4ec1b7"
+  } ],
+  "name" : "customers_transactions",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

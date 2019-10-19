@@ -1,0 +1,38 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "cards",
+      "qualifiedName" : "anonymousdb.cards",
+      "metadataformatterobject" : "{\"displayName\":\"cards\",\"qualifiedName\":\"anonymousdb.cards\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"cards\",\"schemaName\":\"anonymousdb\",\"tableName\":\"cards\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "cards",
+      "qualifiedName" : "anonymousdb.cards",
+      "metadataformatterobject" : "{\"displayName\":\"cards\",\"qualifiedName\":\"anonymousdb.cards\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"cards\",\"schemaName\":\"anonymousdb\",\"tableName\":\"cards\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "account_id",
+    "targetField" : "account_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "card_number",
+    "targetField" : "card_number",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "card_id",
+    "targetField" : "card_id",
+    "type" : "request_response"
+  } ]
+}

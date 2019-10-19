@@ -1,0 +1,25 @@
+[ {
+  "sourceObject" : "accounts",
+  "targetObject" : "cards",
+  "relationshipKeys" : [ {
+    "sourceField" : "account_id",
+    "targetField" : "account_id",
+    "etag" : "bcbb01e1-c857-4f0d-86ab-699993492d2f"
+  } ],
+  "name" : "accounts_cards",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+}, {
+  "sourceObject" : "accounts",
+  "targetObject" : "transactions",
+  "relationshipKeys" : [ {
+    "sourceField" : "account_id",
+    "targetField" : "account_id",
+    "etag" : "f8751e3b-fc54-4077-9ee5-1dc948684f6b"
+  } ],
+  "name" : "accounts_transactions",
+  "type" : "OneToMany",
+  "custom" : false,
+  "cascadeDelete" : false
+} ]

@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "com.mysql.jdbc.Driver",
+    "jdbcUrl" : "jdbc:mysql://rds-d2d52023-65d7-4014-91f2-81950006e915-konye2eprod.cl0eq4nmpr3g.ap-southeast-1.rds.amazonaws.com:3306",
+    "userId" : "readwrite",
+    "password" : "password",
+    "advancedSettings" : null,
+    "maxPoolSize" : null,
+    "connectionTimeout" : null
+  },
+  "jsonpath" : false
+}
